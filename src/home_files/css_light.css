@@ -8,8 +8,15 @@ body{
   font-size:10pt;
   line-height:1.3em;
   background-color:#fafaff;
+  color:#333333;
   margin:0;
-  padding:10px 0 0 0;
+  padding:10px 10px 0 10px;
+}
+
+p{
+  margin:10px 20%;
+  padding:0;
+  text-align:center;
 }
 
 div.fullrow{
@@ -22,30 +29,7 @@ div.fullrow{
   border-spacing:5px 0;
 }
 
-p{
-  margin:0;
-  padding:0;
-}
-
-h2{
-  display:table-cell;
-  text-align:center;
-  font-weight:100;
-  font-size:1.2em;
-  margin:1em 0 1em 0;
-  padding:0;
-}
-
-a{
-  text-decoration:none;
-  color:#000000;
-}
-
-a:visited{
-  color:#000000;
-}
-
-div.emptybutton{
+.cell{
   display:table-cell;
   width:100px;
   height:100px;
@@ -57,22 +41,21 @@ div.emptybutton{
   vertical-align:middle;
 }
 
+a{
+  text-decoration:none;
+  color:#222222;
+}
+
+a:visited{
+  color:#222222;
+}
+
 a.button{
-  display:table-cell;
-  width:100px;
-  height:100px;
   background-color:#fafcfc;
-  border:0px solid transparent;
-  border-radius:5px;
-  margin:5px auto;
-  padding:5px;
-  text-align:center;
-  vertical-align:middle;
   box-shadow:0px 0px 5px 1px #cccccc;
 }
 
 a.button:hover{
-  border:0px solid transparent;
   background-color:#f0edf0;
   box-shadow:0px 0px 5px -2px #666666 inset;
 }
